@@ -3,31 +3,31 @@
 
   const steps = [
     {
-      id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      id: "problem",
+      title: "Solve the Mismatch Problem",
+      text: "Recreational padel suffers from inaccurate player levels leading to unbalanced, frustrating matches. Club managers struggle to organize fair tournaments when they can't trust self-reported skill levels. This kills engagement and reduces member satisfaction.",
+      tags: ["Unbalanced Matches", "Inaccurate Levels", "Poor Engagement", "Tournament Chaos", "Member Churn", "Lost Revenue"],
       graphic: "lines"
     },
     {
-      id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      id: "solution",
+      title: "Dynamic ELO Intelligence",
+      text: "Our hybrid MMR/ELO ranking system learns from actual gameplay, automatically adjusting player rankings through real match results. Even players with zero history get fair matches as the system rapidly calibrates their true skill level.",
+      tags: ["Real-Time Ranking", "Match History Analysis", "Skill Calibration", "Fair Pairing", "Automatic Adjustments", "Zero History Support"],
       graphic: "curve"
     },
     {
-      id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      id: "formats",
+      title: "Flexible Tournament Formats",
+      text: "Run any tournament style your community needs: single elimination for quick events, double elimination for fairness, Swiss system for maximum play time, or hybrid formats combining Swiss rounds with playoff brackets. The most versatile platform in padel.",
+      tags: ["Single Elimination", "Double Elimination", "Swiss System", "Hybrid Formats", "Custom Brackets", "Automated Scheduling"],
       graphic: "circle-top"
     },
     {
-      id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
+      id: "results",
+      title: "Build Engaged Communities",
+      text: "Transform one-off events into recurring engagement. Players return for fair, competitive matches. Clubs see increased member satisfaction and retention. Brand partners activate with confidence. Everyone wins when matches are balanced and communities thrive.",
+      tags: ["Higher Retention", "Recurring Revenue", "Brand Partnerships", "Member Satisfaction", "Community Growth", "Competitive Play"],
       graphic: "circle-waves"
     }
   ];
@@ -63,7 +63,7 @@
   });
 </script>
 
-<section class="bg-[#1a1a40] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
+<section class="bg-[#0a0a0a] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
   <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-12">
     
     <!-- Sticky Navigation -->
@@ -71,7 +71,7 @@
       <div class="space-y-8">
         {#each steps as step, i}
           <div class="transition-opacity duration-500 {i === activeStep ? 'opacity-100' : 'opacity-30'}">
-            <p class="text-xl md:text-2xl font-light mb-1">People work with us to</p>
+            <p class="text-xl md:text-2xl font-light mb-1">SocialPadel helps you</p>
             <h2 class="text-2xl md:text-3xl font-bold">{step.title}</h2>
           </div>
         {/each}

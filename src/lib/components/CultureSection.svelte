@@ -1,19 +1,19 @@
 <script lang="ts">
   const cards = [
     {
-      title: "We're Not Just a Vendor...",
-      subtitle: "We're Your Partner In Crime.",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+      title: "Fair Competition",
+      subtitle: "Every Match Matters",
+      image: "/generated/image-padel-doubles-match-with-evenly-matched--1765587976476-5.webp"
     },
     {
-      title: "We Don't Just Follow Trends...",
-      subtitle: "We Shape New Territories.",
-      image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+      title: "Community First",
+      subtitle: "Build Lasting Connections",
+      image: "/generated/image-group-of-diverse-padel-players-of-differ-1765587973965-4.webp"
     },
     {
-      title: "We Don't Play By The Book...",
-      subtitle: "We Write It Together.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+      title: "Professional Events",
+      subtitle: "Tournament-Ready Platform",
+      image: "/generated/image-padel-tournament-event-with-multiple-cou-1765587979103-6.webp"
     }
   ];
 </script>
@@ -21,7 +21,7 @@
 <section class="py-24 px-6 md:px-12 bg-white">
   <div class="max-w-2xl mb-16">
     <p class="text-xl md:text-2xl leading-relaxed text-gray-800">
-      Collaboration isn't just a buzzword—it's how we roll. We're not here to hand off some cookie-cutter deliverable and disappear; we're in it with you, from day one.
+      More than just tournament software—SocialPadel creates competitive ecosystems where every player finds their level, every match is balanced, and every club builds a thriving community.
     </p>
   </div>
 
@@ -35,8 +35,8 @@
         <p class="text-sm font-bold">{card.subtitle}</p>
         
         <div class="flex justify-between mt-4 text-xs text-gray-400">
-           <span>01</span>
-           <span>-></span>
+           <span>→</span>
+           <span>Engage</span>
         </div>
       </div>
     {/each}

@@ -1,24 +1,24 @@
 <script lang="ts">
   const stats = [
     {
-      label: "30+ People",
-      desc: "You're a small, but mighty team of curious problem-solvers and explorers. With a versatile, Swiss-knife mentality, we thrive on tackling diverse challenges. Our core team is tight-knit, yet we seamlessly tap into a wider network of experts when needed. Here, theory meets practice, and together, we get things done.",
-      img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+      label: "$2B Market",
+      desc: "Starting with padel clubs, SocialPadel captures the massive $2 billion racquet sports market. Our dynamic ELO ranking and hybrid tournament formats position us to scale across the entire competitive recreational sports ecosystem.",
+      img: "/generated/image-padel-tournament-event-with-multiple-cou-1765587979103-6.webp"
     },
     {
-      label: "14+ Awards",
-      desc: "Our work speaks for itself—recognized internationally, we've already earned some awards. These accolades reflect the passion and innovation we pour into every project, pushing boundaries and delivering results that make an impact.",
-      img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200"
+      label: "4 Tournament Formats",
+      desc: "The most versatile tournament platform in padel. Support for single elimination, double elimination, Swiss system, and hybrid formats (Swiss rounds + playoffs). No other platform offers this flexibility.",
+      img: "/generated/image-padel-tournament-bracket-display-on-a-sc-1765587966308-1.webp"
     },
     {
-      label: "CGN, BLN, Remote",
-      desc: "Headquartered in Cologne, with an expanding team in Berlin, we also embrace remote work. Our colleagues span across cities like Barcelona, Stuttgart, Munich, and more, bringing a mix of perspectives and expertise to everything we do. Whether in the office or working remotely, we stay connected and collaborative.",
-      img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=200"
+      label: "AI-Powered Development",
+      desc: "Built with cutting-edge AI assistance, our sophisticated backend handles complex ELO calculations and tournament logistics. The system learns and adapts, providing accurate rankings even for players with zero match history.",
+      img: "/generated/image-padel-club-manager-working-on-tablet-at--1765587971396-3.webp"
     },
     {
-      label: "B-Corp",
-      desc: "We've officially joined the ranks of B-Corp certified companies. This means we meet the highest standards of social and environmental performance, accountability, and transparency. We're proud to use business as a force for good, ensuring our impact extends beyond just profit.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B_Corp_Logo.svg/1200px-B_Corp_Logo.svg.png" // Placeholder
+      label: "Club-First Approach",
+      desc: "Designed for recurring engagement, not one-off events. Our club-focused model builds sticky, long-term communities with multiple revenue streams: subscriptions, event fees, and brand partnerships.",
+      img: "/generated/image-group-of-diverse-padel-players-of-differ-1765587973965-4.webp"
     }
   ];
 </script>
@@ -26,7 +26,7 @@
 <section class="py-24 px-6 md:px-12 bg-white border-t border-gray-100">
   <div class="mb-16">
     <p class="text-gray-500 max-w-xl">
-      Curious about who we are? Here's a snapshot of the team, our achievements, and the milestones we're proud of.
+      The numbers behind SocialPadel. Market opportunity, technical capabilities, and competitive advantages.
     </p>
   </div>
 
